@@ -9,6 +9,7 @@ const Title = styled.h1<TitleProps>`
   font-weight: 700;
   font-size: 28px;
   line-height: 35px;
+  padding-top: 30px;
   text-align: ${(props) => (props.centered ? 'center' : 'left')};
   padding-bottom: 7px;
 `;
