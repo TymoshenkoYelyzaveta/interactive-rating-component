@@ -9,7 +9,8 @@ import {
   RoundContainer,
   Ratings,
   StarIcon,
-  Chip
+  Chip,
+  ThankYouImage
 } from './components';
 
 function App() {
@@ -27,10 +28,11 @@ function App() {
   return (
     <Container>
       {isSubmitted ? (
-        <Card>
+        <Card centeredContent>
+          <ThankYouImage />
           <Chip>{`You selected ${ratingValue} out of 5`}</Chip>
-          <Title centered>Thank you!</Title>
-          <Text centered>
+          <Title>Thank you!</Title>
+          <Text>
             We appreciate you taking the time to give a rating. If you ever need
             more support, don’t hesitate to get in touch!
           </Text>

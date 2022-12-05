@@ -8,3 +8,4 @@ export { default as Ratings} from './Ratings';
 export { default as StarIcon } from './StarIcon';
 export { default as RoundContainer } from './RoundContainer';
 export { default as Chip } from './Chip';
+export { default as ThankYouImage} from './ThankYouImage';

@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   	font-family: 'Overpass', sans-serif;
-  	font-display: fallback; 
   }
 `;
 
