@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-const SubmitButton = styled.button`
+type SumbitButtonProps = {
+  onClick: () => void;
+};
+
+const SubmitButton = styled.button<SumbitButtonProps>`
   width: 100%;
   text-transform: uppercase;
   font-weight: 700;

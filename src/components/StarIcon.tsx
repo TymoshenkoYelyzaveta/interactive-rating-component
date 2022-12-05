@@ -11,7 +11,7 @@ const Svg = styled(Icon)`
   height: 16px;
 `;
 
-const Star = () => (
+const StarIcon = () => (
   <Svg>
     <svg>
       <path
@@ -23,4 +23,4 @@ const Star = () => (
   </Svg>
 );
 
-export default Star;
+export default StarIcon;
