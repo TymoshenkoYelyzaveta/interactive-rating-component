@@ -11,6 +11,7 @@ const Chip = styled.div`
   padding-bottom: 4px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 2px;
   display: inline;
 `;
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Text = styled.p`
+const Paragraph = styled.p`
   color: #969fad;
   font-weight: 400;
   font-size: 15px;
@@ -8,4 +8,4 @@ const Text = styled.p`
   padding-bottom: 24px;
 `;
 
-export default Text;
+export default Paragraph;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Ratings = styled.div`
+const RatingButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,4 +8,5 @@ const Ratings = styled.div`
   padding-bottom: 32px;
 `;
 
-export default Ratings;
+export default RatingButtonsContainer;
+;

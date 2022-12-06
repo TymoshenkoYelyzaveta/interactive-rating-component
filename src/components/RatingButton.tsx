@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-import RoundContainer from './RoundContainer';
+import RoundContainer from './CircleContainer';
 
-type RoundButtonProps = {
+type RatingButtonProps = {
   selected?: boolean;
   onClick: (event: MouseEvent) => void;
 };
 
-const RoundButton = styled(RoundContainer)<RoundButtonProps>`
+const RatingButton = styled(RoundContainer)<RatingButtonProps>`
   background-color: ${(props) => (props.selected ? '#FC7614' : '#262e38')};
   color: ${(props) => (props.selected ? '#ffffff' : '#7C8798')};
   display: flex;
@@ -21,4 +21,4 @@ const RoundButton = styled(RoundContainer)<RoundButtonProps>`
   }
 `;
 
-export default RoundButton;
+export default RatingButton;
